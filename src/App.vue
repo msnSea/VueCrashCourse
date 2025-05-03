@@ -1,8 +1,13 @@
-<main>
-  <template>
-    <H1>Hello World!</H1>
-  </template>
-</main>
+<script lang="ts" setup>
+  import { ref } from 'vue';
+  const message = ref("Hello World!!")
+</script>
+
+<template>
+  <main>
+      <H1>{{message}}</H1>
+    </main>
+</template>
 
 <style scoped>
 main {
