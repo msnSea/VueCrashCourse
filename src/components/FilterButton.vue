@@ -13,3 +13,9 @@
         {{ props.filter }}
     </button>
 </template>
+
+<style scoped>
+button {
+    text-transform: capitalize;
+}
+</style>
