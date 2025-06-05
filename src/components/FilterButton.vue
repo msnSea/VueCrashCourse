@@ -4,11 +4,16 @@
     const props = defineProps<{
         filter: taskFilter;
     }>();
+
+    const emits = defineEmits<{
+        setFilter: [filter: taskFilter]
+    }>();
 </script>
 
 <template>
     <button
         class="secondary"
+        @click="emits('setFilter', props.filter)"
     >
         {{ props.filter }}
     </button>
