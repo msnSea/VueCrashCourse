@@ -8,7 +8,10 @@
 <template>
     <div class="task-list">
         <article v-for="task in props.tasks" :key="task.id">
-            {{ task.title }}
+            <label>
+                 <input type="checkbox">
+                {{ task.title }}
+            </label>
         </article>
     </div>
 </template>
