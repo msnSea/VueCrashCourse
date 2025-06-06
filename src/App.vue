@@ -1,4 +1,10 @@
 <script lang="ts" setup>
+  /*
+Copyright (c) 2025 Mohsen Siaghi.  
+Licensed under the My License.
+You may not use this file except in compliance with the License.
+  */
+
   import { ref } from 'vue';
   import TaskForm from './components/TaskForm.vue';
   import FilterButton from './components/FilterButton.vue';
