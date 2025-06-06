@@ -21,8 +21,8 @@ You may not use this file except in compliance with the License.
       <FilterButton filter="completed" />
     </div>
   </main>
+  <p>این کلاس، نقطه‌ی شروعی بود برای دوستی عمیق‌تر با گیت‌هاب. ممنون بابت این مسیر جدید!</p>
 </template>
-
 <style>
 main {
   max-width: 800px;
