@@ -32,5 +32,6 @@ main {
   display: flex;
   justify-content: end;
   gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 </style>
